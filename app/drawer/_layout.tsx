@@ -21,7 +21,7 @@ const LayoutDrawer = () => {
       name="index" 
       options={{
         drawerLabel: 'Inicio',
-        title: 'Pantalla inicio',
+        title: 'PetConnect',
         drawerIcon: ({size, color}) => <Ionicons name="home" size={size} color={color}/>
       }}
     />
