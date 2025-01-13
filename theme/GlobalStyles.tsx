@@ -1,5 +1,6 @@
 import { StyleSheet } from "react-native"
 import { Colores } from "./Colores"
+import { opacity } from "react-native-reanimated/lib/typescript/Colors"
 
 export const GlobalStyles = StyleSheet.create({
     login: {
@@ -10,14 +11,15 @@ export const GlobalStyles = StyleSheet.create({
 
     tituloLogin: {
         fontSize: 50,
-        color: Colores.white,
-        fontWeight: 'bold'
+        color: Colores.white, 
+        fontFamily: 'Wendy'
     },
     
     subtituloLogin: {
         fontSize: 18,
         color: Colores.white,
         marginTop: 50,
+        fontWeight: 'bold'
     },
 
     contenidoLogin: {
@@ -25,7 +27,7 @@ export const GlobalStyles = StyleSheet.create({
         justifyContent: 'center',
         alignItems: 'center',
         backgroundColor: Colores.white,
-        borderRadius: 10,
+        borderRadius: 35,
         margin: 100,
         width: '100%'
     },
@@ -34,6 +36,14 @@ export const GlobalStyles = StyleSheet.create({
         fontSize: 35,
         color: Colores.darkBlue,
         fontWeight: 'bold'
+    },
+
+    textInputLogin: {
+        width: '75%',
+        backgroundColor: Colores.orange,
+        opacity: 0.35,
+        borderRadius: 10,
+        margin: 5
     },
 
     textoLogin: {
