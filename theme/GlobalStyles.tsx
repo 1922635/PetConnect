@@ -51,23 +51,35 @@ export const GlobalStyles = StyleSheet.create({
     },
 
     contenidoLogin: {
-        flex: 1,
         justifyContent: 'center',
         alignItems: 'center',
         backgroundColor: Colores.white,
         borderRadius: 35,
-        margin: 100,
+        marginTop: 80,
         width: '100%'
     },
 
     contenidoRegistro: {
-        flex: 1,
         justifyContent: 'center',
         alignItems: 'center',
         backgroundColor: Colores.black,
         borderRadius: 35,
-        margin: 100,
+        margin: 80,
         width: '100%'
+    },
+
+    huellaIzquierda:
+    {
+        right: '40%',
+        width: 45,
+        height: 45
+    },
+
+    huellaDerecha:
+    {
+        left: '40%',
+        width: 45,
+        height: 45
     },
 
     textoGrandeLogin: {

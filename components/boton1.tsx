@@ -1,4 +1,3 @@
-import { GlobalStyles } from "@/theme/GlobalStyles";
 import { useState } from "react";
 import { Pressable, StyleProp, TextStyle } from "react-native";
 import { Link, RelativePathString } from "expo-router";

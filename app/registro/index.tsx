@@ -12,7 +12,9 @@ const Registro = () => {
       <Text style={GlobalStyles.tituloRegistro}>PetConnect</Text>
 
       <View style={GlobalStyles.contenidoRegistro}>
+        <Image style={GlobalStyles.logo} source={require('@/assets/images/huella naranja.png')}></Image>
         <Text style={GlobalStyles.textoGrandeRegistro}>Accede al refugio</Text>
+        <Image style={GlobalStyles.logo} source={require('@/assets/images/huella naranja.png')}></Image>
         <TextInput style={GlobalStyles.textInputLogin} placeholder="Nombre"></TextInput>
         <TextInput style={GlobalStyles.textInputLogin} placeholder="Email"></TextInput>
         <TextInput style={GlobalStyles.textInputLogin} placeholder="Contraseña"></TextInput>

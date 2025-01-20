@@ -12,7 +12,9 @@ const Login = () => {
       <Text style={GlobalStyles.tituloLogin}>PetConnect</Text>
 
       <View style={GlobalStyles.contenidoLogin}>
+        <Image style={GlobalStyles.huellaIzquierda} source={require('@/assets/images/huella naranja.png')}></Image>
         <Text style={GlobalStyles.textoGrandeLogin}>Accede al refugio</Text>
+        <Image style={GlobalStyles.huellaDerecha} source={require('@/assets/images/huella naranja.png')}></Image>
         <TextInput style={GlobalStyles.textInputLogin} placeholder="Usuario"></TextInput>
         <TextInput style={GlobalStyles.textInputLogin} placeholder="Contraseña"></TextInput>
         <Boton1 label='Acceder' link={'./drawer'} estilo1={GlobalStyles.botonLogin} estilo2={GlobalStyles.botonPulsadoLogin}></Boton1>
