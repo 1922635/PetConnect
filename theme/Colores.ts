@@ -1,6 +1,6 @@
 export const Colores = {
     darkBlue: '#194A6E',
-    orange: '#fd7712',
-    white: '#EDEDED',
-    black: '#212121'
+    orange: '#FDB672',
+    white: '#F9F9F9',
+    black: '#363636'
 }as const;

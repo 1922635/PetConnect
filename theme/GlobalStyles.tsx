@@ -77,14 +77,12 @@ export const GlobalStyles = StyleSheet.create({
     textInputLogin: {
         width: '75%',
         backgroundColor: Colores.orange,
-        opacity: 0.35,
         borderRadius: 25,
         margin: 5
     },
 
     botonLogin: {
         backgroundColor: Colores.orange,
-        opacity: 0.35,
         padding: 4,
         borderRadius: 15,
         margin: 10,
@@ -92,7 +90,7 @@ export const GlobalStyles = StyleSheet.create({
 
     botonPulsadoLogin: {
         backgroundColor: Colores.orange,
-        opacity: 1,
+        opacity: 0.45,
         padding: 4,
         borderRadius: 15,
         margin: 10,
