@@ -9,15 +9,35 @@ export const GlobalStyles = StyleSheet.create({
         backgroundColor: Colores.darkBlue,
     },
 
+    registro: {
+        flex: 1,
+        alignItems: 'center',
+        backgroundColor: Colores.white,
+    },
+
     tituloLogin: {
         fontSize: 50,
         color: Colores.white, 
+        fontFamily: 'Wendy'
+    },
+
+    tituloRegistro:
+    {
+        fontSize: 50,
+        color: Colores.darkBlue, 
         fontFamily: 'Wendy'
     },
     
     subtituloLogin: {
         fontSize: 18,
         color: Colores.white,
+        marginTop: 50,
+        fontWeight: 'bold'
+    },
+
+    subtituloRegistro: {
+        fontSize: 18,
+        color: Colores.darkBlue,
         marginTop: 50,
         fontWeight: 'bold'
     },
@@ -32,9 +52,25 @@ export const GlobalStyles = StyleSheet.create({
         width: '100%'
     },
 
+    contenidoRegistro: {
+        flex: 1,
+        justifyContent: 'center',
+        alignItems: 'center',
+        backgroundColor: Colores.black,
+        borderRadius: 35,
+        margin: 100,
+        width: '100%'
+    },
+
     textoGrandeLogin: {
         fontSize: 35,
         color: Colores.darkBlue,
+        fontWeight: 'bold'
+    },
+
+    textoGrandeRegistro: {
+        fontSize: 35,
+        color: Colores.white,
         fontWeight: 'bold'
     },
 
@@ -42,8 +78,24 @@ export const GlobalStyles = StyleSheet.create({
         width: '75%',
         backgroundColor: Colores.orange,
         opacity: 0.35,
-        borderRadius: 10,
+        borderRadius: 25,
         margin: 5
+    },
+
+    botonLogin: {
+        backgroundColor: Colores.orange,
+        opacity: 0.35,
+        padding: 4,
+        borderRadius: 15,
+        margin: 10,
+    },
+
+    botonPulsadoLogin: {
+        backgroundColor: Colores.orange,
+        opacity: 1,
+        padding: 4,
+        borderRadius: 15,
+        margin: 10,
     },
 
     textoLogin: {

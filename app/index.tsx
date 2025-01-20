@@ -3,12 +3,7 @@ import { View, Text, Pressable } from 'react-native'
 import React from 'react'
 import { GlobalStyles } from '@/theme/GlobalStyles'
 import { TextInput } from "react-native-gesture-handler";
-
-/*
-export default function Index() {
-  return <Redirect href="./drawer" />;
-}
-*/
+import { Boton1 } from '../components/boton1';
 
 const Login = () => {
   return (
@@ -20,8 +15,8 @@ const Login = () => {
         <Text style={GlobalStyles.textoGrandeLogin}>Accede al refugio</Text>
         <TextInput style={GlobalStyles.textInputLogin} placeholder="Usuario"></TextInput>
         <TextInput style={GlobalStyles.textInputLogin} placeholder="Contraseña"></TextInput>
-        <Link style={GlobalStyles.textoLogin} href="./drawer">pagina principal</Link>
-        <Link style={GlobalStyles.textoLogin} href="./registro">Registro</Link>
+        <Boton1 label='Acceder' link={'./drawer'} estilo1={GlobalStyles.botonLogin} estilo2={GlobalStyles.botonPulsadoLogin}></Boton1>
+        <Boton1 label='Registrate' link={'./registro'} estilo1={GlobalStyles.botonLogin} estilo2={GlobalStyles.botonPulsadoLogin}></Boton1>
       </View>
     </View>
   )
