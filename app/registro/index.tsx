@@ -1,5 +1,4 @@
-import { Link } from "expo-router";
-import { View, Text, Pressable } from 'react-native'
+import { View, Text, Image } from 'react-native'
 import React from 'react'
 import { GlobalStyles } from '@/theme/GlobalStyles'
 import { TextInput } from "react-native-gesture-handler";
@@ -8,6 +7,7 @@ import { Boton1 } from '../../components/boton1';
 const Registro = () => {
   return (
     <View style={GlobalStyles.registro}>
+      <Image style={GlobalStyles.logo} source={require('@/assets/images/logo 2.png')}></Image>
       <Text style={GlobalStyles.subtituloRegistro}>Bienvenido a</Text>
       <Text style={GlobalStyles.tituloRegistro}>PetConnect</Text>
 

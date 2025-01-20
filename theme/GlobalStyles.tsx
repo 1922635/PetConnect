@@ -9,6 +9,14 @@ export const GlobalStyles = StyleSheet.create({
         backgroundColor: Colores.darkBlue,
     },
 
+    logo:
+    {
+        top: '2%',
+        left: '40%',
+        width: 50,
+        height: 50
+    },
+
     registro: {
         flex: 1,
         alignItems: 'center',
@@ -31,14 +39,14 @@ export const GlobalStyles = StyleSheet.create({
     subtituloLogin: {
         fontSize: 18,
         color: Colores.white,
-        marginTop: 50,
+        marginTop: 28,
         fontWeight: 'bold'
     },
 
     subtituloRegistro: {
         fontSize: 18,
         color: Colores.darkBlue,
-        marginTop: 50,
+        marginTop: 28,
         fontWeight: 'bold'
     },
 
