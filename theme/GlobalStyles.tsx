@@ -1,6 +1,5 @@
 import { StyleSheet } from "react-native"
 import { Colores } from "./Colores"
-import { opacity } from "react-native-reanimated/lib/typescript/Colors"
 
 export const GlobalStyles = StyleSheet.create({
     login: {
@@ -40,14 +39,14 @@ export const GlobalStyles = StyleSheet.create({
         fontSize: 18,
         color: Colores.white,
         marginTop: 28,
-        fontWeight: 'bold'
+        fontFamily: 'PoppinsBold'
     },
 
     subtituloRegistro: {
         fontSize: 18,
         color: Colores.darkBlue,
         marginTop: 28,
-        fontWeight: 'bold'
+        fontFamily: 'PoppinsBold'
     },
 
     contenidoLogin: {
@@ -87,20 +86,21 @@ export const GlobalStyles = StyleSheet.create({
     textoGrandeLogin: {
         fontSize: 35,
         color: Colores.darkBlue,
-        fontWeight: 'bold'
+        fontFamily: 'PoppinsBold'
     },
 
     textoGrandeRegistro: {
         fontSize: 35,
         color: Colores.white,
-        fontWeight: 'bold'
+        fontFamily: 'PoppinsBold'
     },
 
     textInputLogin: {
         width: '75%',
         backgroundColor: Colores.orange,
         borderRadius: 25,
-        margin: 5
+        margin: 5,
+        fontFamily: 'Poppins'
     },
 
     displayBotones:
@@ -115,6 +115,7 @@ export const GlobalStyles = StyleSheet.create({
         padding: 10,
         borderRadius: 25,
         margin: 10,
+        fontFamily: 'Poppins'
     },
 
     botonPulsadoLogin: {
@@ -125,21 +126,7 @@ export const GlobalStyles = StyleSheet.create({
         padding: 10,
         borderRadius: 15,
         margin: 10,
-    },
-
-    textoLogin: {
-        fontSize: 18,
-        color: Colores.darkBlue,
-    },
-
-    containerCentrado: {
-        flex: 1,
-        justifyContent: 'center',
-        alignItems: 'center'
-    },
-
-    titulo: {
-        fontSize: 22
+        fontFamily: 'Poppins'
     },
 
     drawerUserContainer: {

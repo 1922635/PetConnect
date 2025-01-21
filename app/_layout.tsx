@@ -5,7 +5,9 @@ import { useFonts }  from "expo-font";
 
 export default function RootLayout() {
   const [loaded] = useFonts({
-    Wendy: require('../assets/fonts/WendyOne-Regular.ttf')
+    Wendy: require('../assets/fonts/WendyOne-Regular.ttf'),
+    Poppins: require('../assets/fonts/Poppins-Regular.ttf'),
+    PoppinsBold: require('../assets/fonts/Poppins-Bold.ttf'),
   });
 
   useEffect(() => {

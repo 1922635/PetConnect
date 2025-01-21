@@ -13,7 +13,7 @@ const Registro = () => {
 
       <View style={GlobalStyles.contenidoRegistro}>
         <Image style={GlobalStyles.huellaIzquierda} source={require('@/assets/images/huellaBlanca.png')}></Image>
-        <Text style={GlobalStyles.textoGrandeRegistro}>Accede al refugio</Text>
+        <Text style={GlobalStyles.textoGrandeRegistro}>Hazte miembro</Text>
         <Image style={GlobalStyles.huellaDerecha} source={require('@/assets/images/huellaBlanca.png')}></Image>
         <TextInput style={GlobalStyles.textInputLogin} placeholder="Nombre"></TextInput>
         <TextInput style={GlobalStyles.textInputLogin} placeholder="Email"></TextInput>
