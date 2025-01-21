@@ -103,17 +103,26 @@ export const GlobalStyles = StyleSheet.create({
         margin: 5
     },
 
+    displayBotones:
+    {
+        flexDirection: 'row',
+    },
+
     botonLogin: {
         backgroundColor: Colores.orange,
-        padding: 4,
-        borderRadius: 15,
+        width: 100,
+        textAlign: 'center',
+        padding: 10,
+        borderRadius: 25,
         margin: 10,
     },
 
     botonPulsadoLogin: {
         backgroundColor: Colores.orange,
+        width: 100,
+        textAlign: 'center',
         opacity: 0.45,
-        padding: 4,
+        padding: 10,
         borderRadius: 15,
         margin: 10,
     },

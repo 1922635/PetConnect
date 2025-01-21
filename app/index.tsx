@@ -17,8 +17,10 @@ const Login = () => {
         <Image style={GlobalStyles.huellaDerecha} source={require('@/assets/images/huella naranja.png')}></Image>
         <TextInput style={GlobalStyles.textInputLogin} placeholder="Usuario"></TextInput>
         <TextInput style={GlobalStyles.textInputLogin} placeholder="Contraseña"></TextInput>
-        <Boton1 label='Acceder' link={'./drawer'} estilo1={GlobalStyles.botonLogin} estilo2={GlobalStyles.botonPulsadoLogin}></Boton1>
-        <Boton1 label='Registrate' link={'./registro'} estilo1={GlobalStyles.botonLogin} estilo2={GlobalStyles.botonPulsadoLogin}></Boton1>
+        <View style={GlobalStyles.displayBotones}>
+          <Boton1 label='Acceder' link={'./drawer'} estilo1={GlobalStyles.botonLogin} estilo2={GlobalStyles.botonPulsadoLogin}></Boton1>
+          <Boton1 label='Registrate' link={'./registro'} estilo1={GlobalStyles.botonLogin} estilo2={GlobalStyles.botonPulsadoLogin}></Boton1>
+        </View>
       </View>
     </View>
   )

@@ -19,8 +19,11 @@ const Registro = () => {
         <TextInput style={GlobalStyles.textInputLogin} placeholder="Email"></TextInput>
         <TextInput style={GlobalStyles.textInputLogin} placeholder="Contraseña"></TextInput>
         <TextInput style={GlobalStyles.textInputLogin} placeholder="RepetirContraseña"></TextInput>
-        <Boton1 label='Registrate' link={'./drawer'} estilo1={GlobalStyles.botonLogin} estilo2={GlobalStyles.botonPulsadoLogin}></Boton1>
-        <Boton1 label='Cancelar' link={'../'} estilo1={GlobalStyles.botonLogin} estilo2={GlobalStyles.botonPulsadoLogin}></Boton1>
+        <View style={GlobalStyles.displayBotones}>
+          <Boton1 label='Registrate' link={'./drawer'} estilo1={GlobalStyles.botonLogin} estilo2={GlobalStyles.botonPulsadoLogin}></Boton1>
+          <Boton1 label='Cancelar' link={'../'} estilo1={GlobalStyles.botonLogin} estilo2={GlobalStyles.botonPulsadoLogin}></Boton1>
+        </View>
+        
       </View>
     </View>
   )
