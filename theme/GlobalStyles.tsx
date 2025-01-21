@@ -71,6 +71,7 @@ export const GlobalStyles = StyleSheet.create({
     huellaIzquierda:
     {
         right: '40%',
+        transform: [{rotate: '-45deg'}],
         width: 45,
         height: 45
     },
@@ -78,6 +79,7 @@ export const GlobalStyles = StyleSheet.create({
     huellaDerecha:
     {
         left: '40%',
+        transform: [{rotate: '45deg'}],
         width: 45,
         height: 45
     },
