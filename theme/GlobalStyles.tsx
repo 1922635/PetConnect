@@ -32,7 +32,7 @@ export const GlobalStyles = StyleSheet.create({
     {
         fontSize: 50,
         color: Colores.darkBlue, 
-        fontFamily: 'Wendy'
+        fontFamily: 'Wendy',
     },
     
     subtituloLogin: {
@@ -130,7 +130,7 @@ export const GlobalStyles = StyleSheet.create({
     },
 
     drawerUserContainer: {
-        backgroundColor: 'indigo',
+        backgroundColor: Colores.darkBlue,
         justifyContent: 'center',
         alignItems: 'center',
         marginHorizontal: 0,
@@ -145,5 +145,26 @@ export const GlobalStyles = StyleSheet.create({
         height: 100, 
         alignSelf:'center', 
         borderRadius: 50
+    },
+
+    headerStyleClaro: {
+        backgroundColor: Colores.white
+    },
+
+    headerStyleOscuro: {
+        backgroundColor: Colores.darkBlue
+    },
+
+    headerTitleStyleClaro: {
+        fontSize: 50,
+        color: Colores.white, 
+        fontFamily: 'Wendy'
+    },
+
+    headerTitleStyleOscuro: {
+        fontSize: 50,
+        color: Colores.darkBlue, 
+        fontFamily: 'Wendy'
     }
+
 })
