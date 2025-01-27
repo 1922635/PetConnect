@@ -40,7 +40,7 @@ const LayoutDrawer = () => {
     <Drawer.Screen
       name="configuracion/index" 
       options={{
-        drawerLabel: 'Ajustes',
+        drawerLabel: 'Patitas al rescate',
         title: 'Pantalla configuracion',
         drawerIcon: ({size, color}) => <Ionicons name="settings" size={size} color={color}/>
       }}
@@ -48,7 +48,7 @@ const LayoutDrawer = () => {
     <Drawer.Screen
       name="favoritos/index" 
       options={{
-        drawerLabel: 'Favoritos',
+        drawerLabel: 'Patitas en marcha',
         title: 'Favoritos',
         drawerIcon: ({size, color}) => <Ionicons name="heart" size={size} color={color}/>
       }}
@@ -56,7 +56,7 @@ const LayoutDrawer = () => {
     <Drawer.Screen
       name="mensajes/index" 
       options={{
-        drawerLabel: 'Mensajes',
+        drawerLabel: 'Refugio de patitas',
         title: 'Mensajes',
         drawerIcon: ({size, color}) => <Ionicons name="mail" size={size} color={color}/>
       }}
