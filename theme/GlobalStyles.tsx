@@ -71,16 +71,16 @@ export const GlobalStyles = StyleSheet.create({
     {
         right: '40%',
         transform: [{rotate: '-45deg'}],
-        width: 45,
-        height: 45
+        width: 40,
+        height: 40
     },
 
     huellaDerecha:
     {
         left: '40%',
         transform: [{rotate: '45deg'}],
-        width: 45,
-        height: 45
+        width: 40,
+        height: 40
     },
 
     textoGrandeLogin: {
@@ -100,7 +100,8 @@ export const GlobalStyles = StyleSheet.create({
         backgroundColor: Colores.orange,
         borderRadius: 25,
         margin: 5,
-        fontFamily: 'Poppins'
+        fontFamily: 'Poppins',
+        fontSize: 20
     },
 
     displayBotones:
