@@ -84,15 +84,17 @@ export const GlobalStyles = StyleSheet.create({
     },
 
     textoGrandeLogin: {
-        fontSize: 35,
+        fontSize: 30,
         color: Colores.darkBlue,
-        fontFamily: 'PoppinsBold'
+        fontFamily: 'PoppinsBold',
+        margin: -10
     },
 
     textoGrandeRegistro: {
-        fontSize: 35,
+        fontSize: 30,
         color: Colores.white,
-        fontFamily: 'PoppinsBold'
+        fontFamily: 'PoppinsBold',
+        margin: -10
     },
 
     textInputLogin: {
@@ -101,7 +103,7 @@ export const GlobalStyles = StyleSheet.create({
         borderRadius: 25,
         margin: 5,
         fontFamily: 'Poppins',
-        fontSize: 20
+        fontSize: 18
     },
 
     displayBotones:
@@ -116,7 +118,8 @@ export const GlobalStyles = StyleSheet.create({
         padding: 10,
         borderRadius: 25,
         margin: 10,
-        fontFamily: 'Poppins'
+        fontFamily: 'Poppins',
+        marginHorizontal: 35
     },
 
     botonPulsadoLogin: {
