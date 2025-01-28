@@ -38,26 +38,26 @@ const LayoutDrawer = () => {
       }}
     />
     <Drawer.Screen
-      name="configuracion/index" 
+      name="rescate/index" 
       options={{
         drawerLabel: 'Patitas al rescate',
-        title: 'Pantalla configuracion',
+        title: 'Patitas al rescate',
         drawerIcon: ({size, color}) => <Ionicons name="settings" size={size} color={color}/>
       }}
     />
     <Drawer.Screen
-      name="favoritos/index" 
+      name="marcha/index" 
       options={{
         drawerLabel: 'Patitas en marcha',
-        title: 'Favoritos',
+        title: 'Patitas en marcha',
         drawerIcon: ({size, color}) => <Ionicons name="heart" size={size} color={color}/>
       }}
     />
     <Drawer.Screen
-      name="mensajes/index" 
+      name="refugio/index" 
       options={{
         drawerLabel: 'Refugio de patitas',
-        title: 'Mensajes',
+        title: 'Refugio de patitas',
         drawerIcon: ({size, color}) => <Ionicons name="mail" size={size} color={color}/>
       }}
     />

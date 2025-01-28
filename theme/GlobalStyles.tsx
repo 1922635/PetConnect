@@ -169,6 +169,29 @@ export const GlobalStyles = StyleSheet.create({
         fontSize: 50,
         color: Colores.darkBlue, 
         fontFamily: 'Wendy'
-    }
+    },
 
+    botonPrincipal: {
+        backgroundColor: Colores.orange,
+        width: 200,
+        height: 100,
+        textAlign: 'center',
+        padding: 10,
+        borderRadius: 25,
+        margin: 10,
+        fontFamily: 'Poppins',
+        marginHorizontal: 35
+    }, 
+
+    botonPrincipalPulsado: {
+        backgroundColor: Colores.orange,
+        width: 200,
+        height: 100,
+        textAlign: 'center',
+        opacity: 0.45,
+        padding: 10,
+        borderRadius: 15,
+        margin: 10,
+        fontFamily: 'Poppins'
+    },
 })
