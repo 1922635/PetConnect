@@ -390,8 +390,8 @@ export const GlobalStyles = StyleSheet.create({
         borderRadius: 25,
         marginTop: 75,
         marginHorizontal: 5,
-        padding: 18,
-        width: 110,
+        padding: 15,
+        width: 100,
         transform: [{ translateY: -15 }],
     },
 
