@@ -17,7 +17,6 @@ export const GlobalStyles = StyleSheet.create({
     },
 
     registro: {
-        flex: 1,
         alignItems: 'center',
         backgroundColor: Colores.white,
     },
@@ -63,7 +62,7 @@ export const GlobalStyles = StyleSheet.create({
         alignItems: 'center',
         backgroundColor: Colores.black,
         borderRadius: 35,
-        margin: 80,
+        marginTop: 80,
         width: '100%'
     },
 
