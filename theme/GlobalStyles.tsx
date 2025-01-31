@@ -140,7 +140,7 @@ export const GlobalStyles = StyleSheet.create({
         textAlign: 'center',
         opacity: 0.45,
         padding: 10,
-        borderRadius: 15,
+        borderRadius: 25,
         margin: 10,
         fontFamily: 'Poppins'
     },
@@ -185,9 +185,10 @@ export const GlobalStyles = StyleSheet.create({
     },
 
     headerTitleStyleOscuro: {
-        fontSize: 25,
+        fontSize: 30,
         color: Colores.darkBlue, 
-        fontFamily: 'Poppins'
+        fontFamily: 'Poppins',
+        fontWeight: 'bold',
     },
 
     botonPrincipal: {
@@ -209,7 +210,7 @@ export const GlobalStyles = StyleSheet.create({
         textAlign: 'center',
         opacity: 0.45,
         padding: 10,
-        borderRadius: 15,
+        borderRadius: 25,
         marginVertical: 10,
         marginHorizontal: 6,
         fontFamily: 'Poppins'
@@ -297,5 +298,42 @@ export const GlobalStyles = StyleSheet.create({
     map: {
         width: 300,
         height: 300,
-    }
+    },
+
+    textInputMapa: {
+        width: '85%',
+        height: 120,
+        backgroundColor: Colores.white,
+        borderRadius: 25,
+        marginTop: 15,
+        fontFamily: 'Poppins',
+        fontSize: 18,
+        textAlignVertical: 'top',
+    },
+
+    botonMapa: {
+        backgroundColor: Colores.white,
+        width: 100,
+        textAlign: 'center',
+        padding: 10,
+        borderRadius: 25,
+        margin: 16,
+        fontFamily: 'Poppins',
+        fontWeight: 'bold',
+        fontSize: 17,
+        color: Colores.darkBlue,
+        left: 100,
+    },
+
+    botonPulsadoMapa: {
+        backgroundColor: Colores.white,
+        opacity: 0.4,
+        width: 100,
+        textAlign: 'center',
+        padding: 10,
+        borderRadius: 25,
+        margin: 16,
+        fontFamily: 'Poppins',
+        left: 100,
+    },
 })

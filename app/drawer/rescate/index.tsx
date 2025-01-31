@@ -2,6 +2,8 @@ import { View, Text } from 'react-native'
 import React from 'react'
 import { GlobalStyles } from '@/theme/GlobalStyles'
 import MapView from 'react-native-maps'
+import { TextInput } from 'react-native-gesture-handler'
+import { Boton1 } from '@/components/boton1'
 
 const ScreenConfiguracion = () => {
   return (
@@ -17,7 +19,10 @@ const ScreenConfiguracion = () => {
           latitudeDelta: 0.005,
           longitudeDelta: 0.005,
         }}
-      />   
+      />
+
+      <TextInput style={GlobalStyles.textInputMapa} placeholder='Describa su situación aquí...'></TextInput>
+      <Boton1 label='Enviar' estilo1={GlobalStyles.botonMapa} estilo2={GlobalStyles.botonPulsadoMapa} link='./'></Boton1>
     </View>
   )
 }

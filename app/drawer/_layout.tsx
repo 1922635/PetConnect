@@ -60,6 +60,8 @@ const LayoutDrawer = () => {
       options={{
         drawerLabel: 'Refugio de patitas',
         title: 'Refugio de patitas',
+        headerTitleStyle: GlobalStyles.headerTitleStyleOscuro,
+        headerStyle: GlobalStyles.headerStyleClaro,
         drawerIcon: ({size, color}) => <Ionicons name="mail" size={size} color={color}/>
       }}
     />
