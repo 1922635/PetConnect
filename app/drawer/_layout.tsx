@@ -44,15 +44,15 @@ const LayoutDrawer = () => {
         title: 'Patitas al rescate',
         headerTitleStyle: GlobalStyles.headerTitleStyleClaro,
         headerStyle: GlobalStyles.headerStyleOscuro,
-        drawerIcon: ({size, color}) => <Ionicons name="settings" size={size} color={color}/>
+        drawerIcon: ({size, color}) => <Ionicons name="flag" size={size} color={color}/>
       }}
     />
     <Drawer.Screen
       name="marcha/index" 
       options={{
-        drawerLabel: 'Patitas en marcha',
-        title: 'Patitas en marcha',
-        drawerIcon: ({size, color}) => <Ionicons name="heart" size={size} color={color}/>
+        drawerLabel: 'Comunidad Animal',
+        title: 'Comunidad Animal',
+        drawerIcon: ({size, color}) => <Ionicons name="chatbubbles" size={size} color={color}/>
       }}
     />
     <Drawer.Screen
@@ -62,7 +62,7 @@ const LayoutDrawer = () => {
         title: 'Refugio de patitas',
         headerTitleStyle: GlobalStyles.headerTitleStyleOscuro,
         headerStyle: GlobalStyles.headerStyleClaro,
-        drawerIcon: ({size, color}) => <Ionicons name="mail" size={size} color={color}/>
+        drawerIcon: ({size, color}) => <Ionicons name="heart" size={size} color={color}/>
       }}
     />
   </Drawer>
