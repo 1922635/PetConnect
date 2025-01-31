@@ -11,6 +11,7 @@ const Registro = () => {
       <Text style={GlobalStyles.subtituloRegistro}>Bienvenido a</Text>
       <Text style={GlobalStyles.tituloRegistro}>PetConnect</Text>
 
+      <Image style={GlobalStyles.fotoMascotasRegistro} source={require('@/assets/images/Pets.png')}></Image>
       <View style={GlobalStyles.contenidoRegistro}>
         <Image style={GlobalStyles.huellaIzquierda} source={require('@/assets/images/huellaBlanca.png')}></Image>
         <Text style={GlobalStyles.textoGrandeRegistro}>Hazte miembro</Text>

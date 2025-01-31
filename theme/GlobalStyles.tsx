@@ -67,6 +67,19 @@ export const GlobalStyles = StyleSheet.create({
         width: '100%'
     },
 
+    fotoMascotasLogin: {
+        marginTop: -150,
+        width: 250,
+        height: 250,
+    },
+
+    fotoMascotasRegistro: {
+        marginTop: -80,
+        marginBottom: -132,
+        width: 250,
+        height: 250,
+    },
+
     huellaIzquierda:
     {
         right: '40%',

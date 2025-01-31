@@ -12,6 +12,7 @@ const Login = () => {
       <Text style={GlobalStyles.tituloLogin}>PetConnect</Text>
 
       <View style={GlobalStyles.contenidoLogin}>
+        <Image style={GlobalStyles.fotoMascotasLogin} source={require('@/assets/images/Pets.png')}></Image>
         <Image style={GlobalStyles.huellaIzquierda} source={require('@/assets/images/huella naranja.png')}></Image>
         <Text style={GlobalStyles.textoGrandeLogin}>Accede al refugio</Text>
         <Image style={GlobalStyles.huellaDerecha} source={require('@/assets/images/huella naranja.png')}></Image>
