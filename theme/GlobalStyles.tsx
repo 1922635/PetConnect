@@ -121,7 +121,6 @@ export const GlobalStyles = StyleSheet.create({
     displayBotones:
     {
         flexDirection: 'row',
-        flexWrap: 'wrap'
     },
 
     botonLogin: {
@@ -191,9 +190,9 @@ export const GlobalStyles = StyleSheet.create({
         textAlign: 'center',
         padding: 10,
         borderRadius: 25,
-        margin: 10,
+        marginVertical: 10,
+        marginHorizontal: 6,
         fontFamily: 'Poppins',
-        marginHorizontal: 35
     }, 
 
     botonPrincipalPulsado: {
@@ -204,12 +203,60 @@ export const GlobalStyles = StyleSheet.create({
         opacity: 0.45,
         padding: 10,
         borderRadius: 15,
-        margin: 10,
+        marginVertical: 10,
+        marginHorizontal: 6,
         fontFamily: 'Poppins'
+    },
+
+    secciones: {
+        marginHorizontal: 12,
+        marginVertical: 20,
+        paddingTop: 5,
+        paddingBottom: 20,
+        borderRadius: 25,
+        backgroundColor: Colores.white,
+        flexDirection: 'row',
+        flexWrap: 'wrap',
+        alignItems: 'center',
+        justifyContent: 'center'
+    },
+
+    tituloSecciones: {
+        fontFamily: 'Poppins',
+        fontWeight: 'bold',
+        fontSize: 45,
+        color: Colores.orange,
+        marginHorizontal: 20,
+    },
+
+    huellaIzquierdaSecciones: {
+        transform: [{rotate: '-45deg'}],
+        width: 40,
+        height: 40
+    },
+
+    huellaDerechaSecciones: {
+        transform: [{rotate: '45deg'}],
+        width: 40,
+        height: 40
+    },
+
+    viewBoton: {
+        flexDirection: 'column',
+        alignItems: 'center'
     },
 
     ImagenesInicio: {
         width: 100,
         height: 100,
     },
+
+    descImagenesInicio: {
+        fontFamily: 'Poppins',
+        color: Colores.darkBlue,
+        fontSize: 18,
+        fontWeight: 'bold',
+        width: 100,
+        textAlign: 'center'
+    }
 })
