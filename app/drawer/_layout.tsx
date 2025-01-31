@@ -34,6 +34,8 @@ const LayoutDrawer = () => {
       options={{
         drawerLabel: 'Perfil',
         title: 'Perfil',
+        headerTitleStyle: GlobalStyles.headerTitleStyleClaro,
+        headerStyle: GlobalStyles.headerStyleOscuro,
         drawerIcon: ({size, color}) => <Ionicons name="person" size={size} color={color}/>
       }}
     />
