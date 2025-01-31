@@ -422,7 +422,7 @@ export const GlobalStyles = StyleSheet.create({
         backgroundColor: Colores.white,
         borderRadius: 30,
         marginHorizontal: 10,
-        width: 155,
+        width: 140,
         height: 130,  
         alignItems: 'center',
         justifyContent: 'center',
