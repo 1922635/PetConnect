@@ -1,7 +1,7 @@
 # PetConnect
 >Autores:
->José Manuel Muñoz Ros
->Juan Luis Moreno Bernal
+>- José Manuel Muñoz Ros
+>- Juan Luis Moreno Bernal
 
 ## Ejecutar el programa
 
