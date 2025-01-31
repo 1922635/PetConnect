@@ -218,7 +218,7 @@ export const GlobalStyles = StyleSheet.create({
 
     secciones: {
         marginHorizontal: 12,
-        marginVertical: 20,
+        marginVertical: 0,
         paddingTop: 5,
         paddingBottom: 20,
         borderRadius: 25,
@@ -338,14 +338,15 @@ export const GlobalStyles = StyleSheet.create({
     },
 
     buscador: {
-        margin: 25,
+        margin: 15,
         borderColor: Colores.darkBlue,
         borderWidth: 3,
         borderRadius: 25,
         padding: 20,
         fontFamily: 'Poppins',
         color: Colores.darkBlue,
-        width: '75%',
+        width: '95%',
+        backgroundColor: Colores.white
     },
 
     viewDarkBlue: {
