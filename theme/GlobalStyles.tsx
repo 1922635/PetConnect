@@ -232,7 +232,7 @@ export const GlobalStyles = StyleSheet.create({
     tituloSecciones: {
         fontFamily: 'Poppins',
         fontWeight: 'bold',
-        fontSize: 45,
+        fontSize: 40,
         color: Colores.orange,
         marginHorizontal: 20,
     },
@@ -262,10 +262,11 @@ export const GlobalStyles = StyleSheet.create({
     descImagenesInicio: {
         fontFamily: 'Poppins',
         color: Colores.darkBlue,
-        fontSize: 18,
+        fontSize: 16,
         fontWeight: 'bold',
         width: 100,
-        textAlign: 'center'
+        textAlign: 'center',
+        marginTop: -5
     },
 
     textoProtectoras: {
