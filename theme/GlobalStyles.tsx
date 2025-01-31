@@ -257,6 +257,8 @@ export const GlobalStyles = StyleSheet.create({
     ImagenesInicio: {
         width: 100,
         height: 100,
+        position: 'absolute',
+        transform: [{ translateX: 5 }],
     },
 
     descImagenesInicio: {
