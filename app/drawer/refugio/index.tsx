@@ -20,12 +20,15 @@ const ScreenProductos = () => {
 
         <View style={GlobalStyles.viewNaranja}>
           <Image source={require('@/assets/images/gatito.png')} style={GlobalStyles.imagenesCategorías}></Image>
+          <Text style={GlobalStyles.textoAnimales}>GATOS</Text>
         </View>
         <View style={GlobalStyles.viewNaranja}>
           <Image source={require('@/assets/images/perrito.png')} style={GlobalStyles.imagenesCategorías}></Image>
+          <Text style={GlobalStyles.textoAnimales}>PERROS</Text>
         </View>
         <View style={GlobalStyles.viewNaranja}>
           <Image source={require('@/assets/images/conejito.png')} style={GlobalStyles.imagenesCategorías}></Image>
+          <Text style={GlobalStyles.textoAnimales}>CONEJOS</Text>
         </View>
 
 
