@@ -442,7 +442,33 @@ export const GlobalStyles = StyleSheet.create({
         fontSize: 10,
         alignSelf: 'center',
         marginLeft: 5
-    }
+    },
 
-    
+    textoAdoptar2: {
+        fontFamily: 'Poppins',
+        color: Colores.white,
+        fontSize: 15,
+        textAlign: 'justify',
+        margin: 24,
+        
+    },
+
+    textDiscusion:{
+        fontFamily: 'Poppins',
+        color: Colores.white,
+        fontWeight: 'bold',
+        padding: 10
+    },
+
+    secciones2: {
+        marginHorizontal: 12,
+        marginVertical: 0,
+        paddingTop: 50,
+        paddingBottom: 20,
+        borderRadius: 25,
+        flexDirection: 'row',
+        flexWrap: 'wrap',
+        alignItems: 'center',
+        justifyContent: 'center'
+    },
 })
