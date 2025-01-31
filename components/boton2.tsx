@@ -1,15 +1,16 @@
 import { useState } from "react";
-import { Pressable, StyleProp, TextStyle } from "react-native";
+import { Pressable, StyleProp, TextStyle, Image, ImageStyle, ImageSourcePropType } from 'react-native';
 import { Link, RelativePathString } from "expo-router";
 
 interface Props {
-    label: string,
     estilo1?: StyleProp<TextStyle>,
     estilo2?: StyleProp<TextStyle>,
     link: RelativePathString,
+    imagen: ImageSourcePropType,
+    estiloImagen: StyleProp<ImageStyle>,
 }
 
-export const Boton1 = ({label, link, estilo1, estilo2}:Props) => {
+export const Boton2 = ({link, estilo1, estilo2, imagen, estiloImagen}:Props) => {
     const [isPressed, setIsPressed] = useState(false);
 
     const handlePress = () => {
@@ -22,7 +23,7 @@ export const Boton1 = ({label, link, estilo1, estilo2}:Props) => {
                 style={[estilo1, isPressed && estilo2]}
                 onPressIn={handlePress}
                 onPressOut={handlePress}
-                href={link}>{label}</Link>
+                href={link}><Image style={estiloImagen} source={imagen}></Image></Link>
         </Pressable>
     );
 };

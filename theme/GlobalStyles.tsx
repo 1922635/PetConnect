@@ -121,6 +121,7 @@ export const GlobalStyles = StyleSheet.create({
     displayBotones:
     {
         flexDirection: 'row',
+        flexWrap: 'wrap'
     },
 
     botonLogin: {
@@ -185,7 +186,7 @@ export const GlobalStyles = StyleSheet.create({
 
     botonPrincipal: {
         backgroundColor: Colores.orange,
-        width: 200,
+        width: 100,
         height: 100,
         textAlign: 'center',
         padding: 10,
@@ -197,7 +198,7 @@ export const GlobalStyles = StyleSheet.create({
 
     botonPrincipalPulsado: {
         backgroundColor: Colores.orange,
-        width: 200,
+        width: 100,
         height: 100,
         textAlign: 'center',
         opacity: 0.45,
@@ -205,5 +206,10 @@ export const GlobalStyles = StyleSheet.create({
         borderRadius: 15,
         margin: 10,
         fontFamily: 'Poppins'
+    },
+
+    ImagenesInicio: {
+        width: 100,
+        height: 100,
     },
 })
