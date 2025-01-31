@@ -370,5 +370,12 @@ export const GlobalStyles = StyleSheet.create({
         marginTop: -35
     },
 
-    
+    textoNaranja: {
+        fontFamily: 'Poppins',
+        color: Colores.orange,
+        fontWeight: 'bold',
+        fontSize: 26,
+        marginVertical: 5,
+        marginHorizontal: 25,
+    }
 })

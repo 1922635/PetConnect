@@ -14,6 +14,11 @@ const ScreenProductos = () => {
         <Image source={require('@/assets/images/perritos y gatitos.png')} style={GlobalStyles.perritosYgatitos}></Image>
       </View>
 
+      <View style={GlobalStyles.secciones}>
+        <Text style={GlobalStyles.textoNaranja}>Categorías</Text>
+        <Text style={GlobalStyles.textoNaranja}>Ver todo</Text>
+      </View>
+
     </View>
   )
 }
