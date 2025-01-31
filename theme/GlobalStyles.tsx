@@ -336,4 +336,39 @@ export const GlobalStyles = StyleSheet.create({
         fontFamily: 'Poppins',
         left: 100,
     },
+
+    buscador: {
+        margin: 25,
+        borderColor: Colores.darkBlue,
+        borderWidth: 3,
+        borderRadius: 25,
+        padding: 20,
+        fontFamily: 'Poppins',
+        color: Colores.darkBlue,
+        width: '75%',
+    },
+
+    viewDarkBlue: {
+        backgroundColor: Colores.darkBlue,
+        borderRadius: 25,
+        margin: 20,
+        width: '85%'
+    },
+
+    textoAdoptar: {
+        fontFamily: 'Poppins',
+        color: Colores.white,
+        fontSize: 18,
+        textAlign: 'justify',
+        margin: 18,
+    },
+
+    perritosYgatitos: {
+        width: '85%',
+        height: 40,
+        left: 25,
+        marginTop: -35
+    },
+
+    
 })

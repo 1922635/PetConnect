@@ -25,7 +25,7 @@ const ScreenPrincipal = () => {
           <Text style={GlobalStyles.descImagenesInicio}>Comunidad animal</Text>
         </View>
         <View style={GlobalStyles.viewBoton}>
-          <Boton2 estilo1={GlobalStyles.botonPrincipal} estilo2={GlobalStyles.botonPrincipalPulsado} link='./drawer/marcha' imagen={require('@/assets/images/adoptMe.png')} estiloImagen={GlobalStyles.ImagenesInicio}></Boton2>
+          <Boton2 estilo1={GlobalStyles.botonPrincipal} estilo2={GlobalStyles.botonPrincipalPulsado} link='./drawer/refugio' imagen={require('@/assets/images/adoptMe.png')} estiloImagen={GlobalStyles.ImagenesInicio}></Boton2>
           <Text style={GlobalStyles.descImagenesInicio}>Refugio de patitas</Text>
         </View>
         <View style={GlobalStyles.viewBoton}>

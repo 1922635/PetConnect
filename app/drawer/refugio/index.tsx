@@ -1,12 +1,19 @@
-import { View, Text } from 'react-native'
+import { View, Text, Image } from 'react-native'
 import React from 'react'
 import Registro from '@/app/registro'
 import { GlobalStyles } from '@/theme/GlobalStyles'
+import { TextInput } from 'react-native-gesture-handler'
 
 const ScreenProductos = () => {
   return (
     <View style={GlobalStyles.registro}>
-      <Text>Mensajes</Text>
+      <TextInput style={GlobalStyles.buscador} placeholder={'Buscar...'}></TextInput>
+
+      <View style={GlobalStyles.viewDarkBlue}>
+        <Text style={GlobalStyles.textoAdoptar}>Adoptar es un compromiso para toda la vida, piensalo bien antes de dar el paso. Si no puedes cuidarlo hoy, mañana y siempre, no adoptes.</Text>
+        <Image source={require('@/assets/images/perritos y gatitos.png')} style={GlobalStyles.perritosYgatitos}></Image>
+      </View>
+
     </View>
   )
 }
