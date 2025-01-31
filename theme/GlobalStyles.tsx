@@ -471,4 +471,39 @@ export const GlobalStyles = StyleSheet.create({
         alignItems: 'center',
         justifyContent: 'center'
     },
+
+    discusionAzul: {
+        fontFamily: 'Poppins',
+        color: Colores.darkBlue,
+        fontWeight: 'bold',
+        fontSize: 20,
+    },
+
+    botonDiscusion: {
+        backgroundColor: Colores.darkBlue,
+        width: 100,
+        textAlign: 'center',
+        padding: 10,
+        borderRadius: 25,
+        margin: 16,
+        fontFamily: 'Poppins',
+        fontWeight: 'bold',
+        fontSize: 17,
+        color: Colores.white,
+        left: 120,
+        marginTop: 40,
+    },
+
+    botonPulsadoDiscusion: {
+        backgroundColor: Colores.darkBlue,
+        opacity: 0.4,
+        width: 100,
+        textAlign: 'center',
+        padding: 10,
+        borderRadius: 25,
+        margin: 16,
+        fontFamily: 'Poppins',
+        left: 120,
+        marginTop: 40,
+    },
 })
