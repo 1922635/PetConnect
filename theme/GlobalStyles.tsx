@@ -258,5 +258,23 @@ export const GlobalStyles = StyleSheet.create({
         fontWeight: 'bold',
         width: 100,
         textAlign: 'center'
-    }
+    },
+
+    textoProtectoras: {
+        fontFamily: 'Poppins',
+        color: Colores.white,
+        fontSize: 24,
+        fontWeight: 'bold',
+    },
+
+    viewProtectoras: {
+        padding: 15,
+        flexDirection: 'row',
+    },
+
+    ImagenesProtectoras: {
+        width: 100,
+        height: 100,
+        marginHorizontal: 15,
+    },
 })
