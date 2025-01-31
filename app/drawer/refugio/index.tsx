@@ -17,6 +17,28 @@ const ScreenProductos = () => {
       <View style={GlobalStyles.secciones}>
         <Text style={GlobalStyles.textoNaranja}>Categorías</Text>
         <Text style={GlobalStyles.textoNaranja}>Ver todo</Text>
+
+        <View style={GlobalStyles.viewNaranja}>
+          <Image source={require('@/assets/images/gatito.png')} style={GlobalStyles.imagenesCategorías}></Image>
+        </View>
+        <View style={GlobalStyles.viewNaranja}>
+          <Image source={require('@/assets/images/perrito.png')} style={GlobalStyles.imagenesCategorías}></Image>
+        </View>
+        <View style={GlobalStyles.viewNaranja}>
+          <Image source={require('@/assets/images/conejito.png')} style={GlobalStyles.imagenesCategorías}></Image>
+        </View>
+
+
+        <View style={GlobalStyles.viewPluto}>
+          <View style={GlobalStyles.viewBlanco}>
+            <Image source={require('@/assets/images/Pluto.png')} style={GlobalStyles.pluto}></Image>
+            <Text style={GlobalStyles.textoPluto}>Pluto</Text>
+          </View>
+          <View style={GlobalStyles.viewBlanco}>
+            <Image source={require('@/assets/images/Pluto.png')} style={GlobalStyles.pluto}></Image>
+            <Text style={GlobalStyles.textoPluto}>Pluto</Text>
+          </View>
+        </View>
       </View>
 
     </View>
