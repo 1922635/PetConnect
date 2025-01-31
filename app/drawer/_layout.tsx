@@ -52,6 +52,8 @@ const LayoutDrawer = () => {
       options={{
         drawerLabel: 'Comunidad Animal',
         title: 'Comunidad Animal',
+        headerTitleStyle: GlobalStyles.headerTitleStyleOscuro,
+        headerStyle: GlobalStyles.headerStyleClaro,
         drawerIcon: ({size, color}) => <Ionicons name="chatbubbles" size={size} color={color}/>
       }}
     />
