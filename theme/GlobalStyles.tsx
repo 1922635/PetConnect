@@ -338,7 +338,7 @@ export const GlobalStyles = StyleSheet.create({
     },
 
     buscador: {
-        margin: 25,
+        margin: 15,
         borderColor: Colores.darkBlue,
         borderWidth: 3,
         borderRadius: 25,
@@ -351,7 +351,7 @@ export const GlobalStyles = StyleSheet.create({
     viewDarkBlue: {
         backgroundColor: Colores.darkBlue,
         borderRadius: 25,
-        margin: 20,
+        margin: 10,
         width: '85%'
     },
 
@@ -375,7 +375,54 @@ export const GlobalStyles = StyleSheet.create({
         color: Colores.orange,
         fontWeight: 'bold',
         fontSize: 26,
-        marginVertical: 5,
+        marginBottom: 5,
+        marginTop: -40,
         marginHorizontal: 25,
+    },
+
+    viewNaranja: {
+        backgroundColor: Colores.orange,
+        borderRadius: 25,
+        marginTop: 75,
+        marginHorizontal: 20,
+        padding: 6,
+    },
+
+    imagenesCategorías: {
+        width: 60,
+        height: 60
+    },
+
+    viewPluto: {
+        flexDirection: 'row',
+        marginTop: -50,
+        width: '95%',
+        backgroundColor: Colores.orange,
+        borderRadius: 25,
+        padding: 10,
+    },
+
+    pluto: {
+        width: 80,
+        height: 80,    
+    },
+
+    viewBlanco: {
+        backgroundColor: Colores.white,
+        borderRadius: 30,
+        marginHorizontal: 10,
+        width: 130,
+        height: 130,  
+        alignItems: 'center',
+        justifyContent: 'center',
+    },
+
+    textoPluto: {
+        color: Colores.darkBlue,
+        fontFamily: 'Poppins',
+        fontWeight: 'bold',
+        fontSize: 20
     }
+
+    
 })
