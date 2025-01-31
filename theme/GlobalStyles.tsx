@@ -171,16 +171,23 @@ export const GlobalStyles = StyleSheet.create({
         backgroundColor: Colores.darkBlue
     },
 
-    headerTitleStyleClaro: {
+    headerTitleStylePrincipal: {
         fontSize: 50,
         color: Colores.white, 
         fontFamily: 'Wendy'
     },
 
+    headerTitleStyleClaro: {
+        fontSize: 30,
+        color: Colores.white, 
+        fontFamily: 'Poppins',
+        fontWeight: 'bold',
+    },
+
     headerTitleStyleOscuro: {
-        fontSize: 50,
+        fontSize: 25,
         color: Colores.darkBlue, 
-        fontFamily: 'Wendy'
+        fontFamily: 'Poppins'
     },
 
     botonPrincipal: {
@@ -277,4 +284,18 @@ export const GlobalStyles = StyleSheet.create({
         height: 100,
         marginHorizontal: 15,
     },
+
+    rescateTexto:
+    {
+        fontFamily: 'Poppins',
+        color: Colores.white,
+        fontSize: 21,
+        textAlign: 'justify',
+        margin: 18,
+    },
+
+    map: {
+        width: 300,
+        height: 300,
+    }
 })

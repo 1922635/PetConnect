@@ -24,7 +24,7 @@ const LayoutDrawer = () => {
       options={{
         drawerLabel: 'Inicio',
         title: 'PetConnect',
-        headerTitleStyle: GlobalStyles.headerTitleStyleClaro,
+        headerTitleStyle: GlobalStyles.headerTitleStylePrincipal,
         headerStyle: GlobalStyles.headerStyleOscuro,
         drawerIcon: ({size, color}) => <Ionicons name="home" size={size} color={color}/>
       }}
@@ -42,6 +42,8 @@ const LayoutDrawer = () => {
       options={{
         drawerLabel: 'Patitas al rescate',
         title: 'Patitas al rescate',
+        headerTitleStyle: GlobalStyles.headerTitleStyleClaro,
+        headerStyle: GlobalStyles.headerStyleOscuro,
         drawerIcon: ({size, color}) => <Ionicons name="settings" size={size} color={color}/>
       }}
     />

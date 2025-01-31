@@ -40,8 +40,6 @@ const ScreenPrincipal = () => {
         <Image style={GlobalStyles.ImagenesProtectoras} source={require('@/assets/images/protectora2.png')}></Image>
       </View>
       
-
-
     </View>
   )
 }
