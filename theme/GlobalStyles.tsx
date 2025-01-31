@@ -218,7 +218,7 @@ export const GlobalStyles = StyleSheet.create({
 
     secciones: {
         marginHorizontal: 12,
-        marginVertical: 20,
+        marginVertical: 0,
         paddingTop: 5,
         paddingBottom: 20,
         borderRadius: 25,
@@ -232,7 +232,7 @@ export const GlobalStyles = StyleSheet.create({
     tituloSecciones: {
         fontFamily: 'Poppins',
         fontWeight: 'bold',
-        fontSize: 45,
+        fontSize: 40,
         color: Colores.orange,
         marginHorizontal: 20,
     },
@@ -257,15 +257,18 @@ export const GlobalStyles = StyleSheet.create({
     ImagenesInicio: {
         width: 100,
         height: 100,
+        position: 'absolute',
+        transform: [{ translateX: 5 }],
     },
 
     descImagenesInicio: {
         fontFamily: 'Poppins',
         color: Colores.darkBlue,
-        fontSize: 18,
+        fontSize: 16,
         fontWeight: 'bold',
         width: 100,
-        textAlign: 'center'
+        textAlign: 'center',
+        marginTop: -5
     },
 
     textoProtectoras: {
@@ -345,14 +348,15 @@ export const GlobalStyles = StyleSheet.create({
         padding: 20,
         fontFamily: 'Poppins',
         color: Colores.darkBlue,
-        width: '75%',
+        width: '95%',
+        backgroundColor: Colores.white
     },
 
     viewDarkBlue: {
         backgroundColor: Colores.darkBlue,
         borderRadius: 25,
         margin: 10,
-        width: '85%'
+        width: '95%'
     },
 
     textoAdoptar: {
@@ -360,7 +364,8 @@ export const GlobalStyles = StyleSheet.create({
         color: Colores.white,
         fontSize: 18,
         textAlign: 'justify',
-        margin: 18,
+        margin: 24,
+        
     },
 
     perritosYgatitos: {
@@ -376,7 +381,7 @@ export const GlobalStyles = StyleSheet.create({
         fontWeight: 'bold',
         fontSize: 26,
         marginBottom: 5,
-        marginTop: -40,
+        marginTop: -30,
         marginHorizontal: 25,
     },
 
@@ -384,34 +389,40 @@ export const GlobalStyles = StyleSheet.create({
         backgroundColor: Colores.orange,
         borderRadius: 25,
         marginTop: 75,
-        marginHorizontal: 20,
-        padding: 6,
+        marginHorizontal: 5,
+        padding: 18,
+        width: 110,
+        transform: [{ translateY: -15 }],
     },
 
     imagenesCategorías: {
         width: 60,
-        height: 60
+        height: 60,
+        transform: [{ translateX: 7 }],
+
     },
 
     viewPluto: {
         flexDirection: 'row',
         marginTop: -50,
-        width: '95%',
+        width: '100%',
         backgroundColor: Colores.orange,
         borderRadius: 25,
         padding: 10,
     },
 
     pluto: {
-        width: 80,
+        width: 100,
         height: 80,    
+        borderRadius: 15
+        //Necesitamos que se estire horizontalmente para que se quede con un poco de margen con el cuadro blanco
     },
 
     viewBlanco: {
         backgroundColor: Colores.white,
         borderRadius: 30,
         marginHorizontal: 10,
-        width: 130,
+        width: 155,
         height: 130,  
         alignItems: 'center',
         justifyContent: 'center',
@@ -422,6 +433,15 @@ export const GlobalStyles = StyleSheet.create({
         fontFamily: 'Poppins',
         fontWeight: 'bold',
         fontSize: 20
+    },
+
+    textoAnimales: {
+        color: Colores.white,
+        fontFamily: 'Poppins',
+        fontWeight: 'bold',
+        fontSize: 10,
+        alignSelf: 'center',
+        marginLeft: 5
     }
 
     

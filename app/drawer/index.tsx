@@ -1,4 +1,4 @@
-import { View, Text, Image } from 'react-native'
+import { View, Text, Image, TextInput } from 'react-native'
 import React from 'react'
 import { GlobalStyles } from '@/theme/GlobalStyles'
 import { Boton2 } from '@/components/boton2';
@@ -7,6 +7,7 @@ const ScreenPrincipal = () => {
   return (
     <View style={GlobalStyles.login}>
 
+      <TextInput style={GlobalStyles.buscador} placeholder={'Buscar...'}></TextInput>
       <View style={GlobalStyles.secciones}>
         <Image style={GlobalStyles.huellaIzquierdaSecciones} source={require('@/assets/images/huella naranja.png')}></Image>
         <Text style={GlobalStyles.tituloSecciones}>Secciones</Text>
