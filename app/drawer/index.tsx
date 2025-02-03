@@ -7,7 +7,7 @@ import { ScrollView } from 'react-native-gesture-handler';
 const ScreenPrincipal = () => {
   return (
     <ScrollView 
-      ContentContainerStyle={GlobalStyles.login}>
+      contentContainerStyle={GlobalStyles.login}>
 
       <TextInput style={GlobalStyles.buscador} placeholder={'Buscar...'}></TextInput>
       <View style={GlobalStyles.secciones}>

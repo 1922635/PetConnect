@@ -9,7 +9,7 @@ import { ScrollView } from 'react-native-gesture-handler';
 const ScreenProductos = () => {
   return (
     <ScrollView 
-      ContentContainerStyle={GlobalStyles.registro}>
+      contentContainerStyle={GlobalStyles.registro}>
 
       <View style={GlobalStyles.viewDarkBlue}>
         <Text style={GlobalStyles.textoAdoptar2}>Descubre eventos solidarios creados por la comunidad: actividades deportivas, caminatas y mucho más. Cada participación suma para ayudar a los animales que más lo necesitan. ¡Únete y se parte del cambio!.</Text>

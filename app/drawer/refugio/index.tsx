@@ -8,7 +8,7 @@ import { ScrollView } from 'react-native-gesture-handler';
 const ScreenProductos = () => {
   return (
     <ScrollView 
-      ContentContainerStyle={GlobalStyles.registro}>
+      contentContainerStyle={GlobalStyles.registro}>
       <TextInput style={GlobalStyles.buscador} placeholder={'Buscar...'}></TextInput>
 
       <View style={GlobalStyles.viewDarkBlue}>

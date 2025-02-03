@@ -9,7 +9,7 @@ import { ScrollView } from 'react-native-gesture-handler';
 const ScreenConfiguracion = () => {
   return (
     <ScrollView 
-      ContentContainerStyle={GlobalStyles.login}>
+      contentContainerStyle={GlobalStyles.login}>
     
       <Text style={GlobalStyles.rescateTexto}>Este mapa conecta a quienes necesitan ayuda con quienes están dispuestos a ofrecerla.</Text>
        

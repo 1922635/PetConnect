@@ -8,7 +8,7 @@ import { ScrollView } from 'react-native-gesture-handler';
 const Registro = () => {
   return (
     <ScrollView 
-      ContentContainerStyle={GlobalStyles.registro}>
+      contentContainerStyle={GlobalStyles.registro}>
       <Image style={GlobalStyles.logo} source={require('@/assets/images/logo 2.png')}></Image>
       <Text style={GlobalStyles.subtituloRegistro}>Bienvenido a</Text>
       <Text style={GlobalStyles.tituloRegistro}>PetConnect</Text>
