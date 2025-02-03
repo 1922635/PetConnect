@@ -17,6 +17,7 @@
 
    ```bash
    npm install
+   npm install react-native-maps
    ```
 
 2. Inicia la aplicación
