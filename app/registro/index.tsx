@@ -3,10 +3,12 @@ import React from 'react'
 import { GlobalStyles } from '@/theme/GlobalStyles'
 import { TextInput } from "react-native-gesture-handler";
 import { Boton1 } from '../../components/boton1';
+import { ScrollView } from 'react-native-gesture-handler';
 
 const Registro = () => {
   return (
-    <View style={GlobalStyles.registro}>
+    <ScrollView 
+      ContentContainerStyle={GlobalStyles.registro}>
       <Image style={GlobalStyles.logo} source={require('@/assets/images/logo 2.png')}></Image>
       <Text style={GlobalStyles.subtituloRegistro}>Bienvenido a</Text>
       <Text style={GlobalStyles.tituloRegistro}>PetConnect</Text>
@@ -26,7 +28,7 @@ const Registro = () => {
         </View>
         
       </View>
-    </View>
+    </ScrollView>
   )
 }
 
