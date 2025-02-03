@@ -4,10 +4,12 @@ import { GlobalStyles } from '@/theme/GlobalStyles'
 import MapView from 'react-native-maps'
 import { TextInput } from 'react-native-gesture-handler'
 import { Boton1 } from '@/components/boton1'
+import { ScrollView } from 'react-native-gesture-handler';
 
 const ScreenConfiguracion = () => {
   return (
-    <View style={GlobalStyles.login}>
+    <ScrollView 
+      ContentContainerStyle={GlobalStyles.login}>
     
       <Text style={GlobalStyles.rescateTexto}>Este mapa conecta a quienes necesitan ayuda con quienes están dispuestos a ofrecerla.</Text>
        
@@ -24,7 +26,7 @@ const ScreenConfiguracion = () => {
       <TextInput style={GlobalStyles.textInputMapa} placeholder='Describa su situación aquí...'></TextInput>
       <Boton1 label='Enviar' estilo1={GlobalStyles.botonMapa} estilo2={GlobalStyles.botonPulsadoMapa} link='./'></Boton1>
       
-    </View>
+    </ScrollView>
   )
 }
 
