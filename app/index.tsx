@@ -3,10 +3,12 @@ import React from 'react'
 import { GlobalStyles } from '@/theme/GlobalStyles'
 import { TextInput } from "react-native-gesture-handler";
 import { Boton1 } from '../components/boton1';
+import { ScrollView } from 'react-native-gesture-handler';
 
 const Login = () => {
   return (
-    <View style={GlobalStyles.login}>
+    <ScrollView 
+      ContentContainerStyle={GlobalStyles.login}>
       <Image style={GlobalStyles.logo} source={require('@/assets/images/logo 2.png')}></Image>
       <Text style={GlobalStyles.subtituloLogin}>Bienvenido a</Text>
       <Text style={GlobalStyles.tituloLogin}>PetConnect</Text>
@@ -23,7 +25,7 @@ const Login = () => {
           <Boton1 label='Registrate' link={'./registro'} estilo1={GlobalStyles.botonLogin} estilo2={GlobalStyles.botonPulsadoLogin}></Boton1>
         </View>
       </View>
-    </View>
+    </ScrollView>
   )
 }
 
