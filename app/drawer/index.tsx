@@ -2,10 +2,12 @@ import { View, Text, Image, TextInput } from 'react-native'
 import React from 'react'
 import { GlobalStyles } from '@/theme/GlobalStyles'
 import { Boton2 } from '@/components/boton2';
+import { ScrollView } from 'react-native-gesture-handler';
 
 const ScreenPrincipal = () => {
   return (
-    <View style={GlobalStyles.login}>
+    <ScrollView 
+      ContentContainerStyle={GlobalStyles.login}>
 
       <TextInput style={GlobalStyles.buscador} placeholder={'Buscar...'}></TextInput>
       <View style={GlobalStyles.secciones}>
@@ -41,7 +43,7 @@ const ScreenPrincipal = () => {
         <Image style={GlobalStyles.ImagenesProtectoras} source={require('@/assets/images/protectora2.png')}></Image>
       </View>
       
-    </View>
+    </ScrollView>
   )
 }
 
