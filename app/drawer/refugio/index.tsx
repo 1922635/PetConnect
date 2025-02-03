@@ -1,12 +1,14 @@
-import { View, Text, Image } from 'react-native'
-import React from 'react'
-import Registro from '@/app/registro'
-import { GlobalStyles } from '@/theme/GlobalStyles'
-import { TextInput } from 'react-native-gesture-handler'
+import { View, Text, Image } from 'react-native';
+import React from 'react';
+import Registro from '@/app/registro';
+import { GlobalStyles } from '@/theme/GlobalStyles';
+import { TextInput } from 'react-native-gesture-handler';
+import { ScrollView } from 'react-native-gesture-handler';
 
 const ScreenProductos = () => {
   return (
-    <View style={GlobalStyles.registro}>
+    <ScrollView 
+      ContentContainerStyle={GlobalStyles.registro}>
       <TextInput style={GlobalStyles.buscador} placeholder={'Buscar...'}></TextInput>
 
       <View style={GlobalStyles.viewDarkBlue}>
@@ -44,7 +46,7 @@ const ScreenProductos = () => {
         </View>
       </View>
 
-    </View>
+    </ScrollView>
   )
 }
 
