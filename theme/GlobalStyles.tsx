@@ -426,7 +426,7 @@ export const GlobalStyles = StyleSheet.create({
         width: 136,
         height: 80,    
         borderRadius: 20,
-        transform: [{ translateX: 9 }, { translateY: 4 }],
+        transform: [{ translateX: 9 }, { translateY: 0 }],
         //Necesitamos que se estire horizontalmente para que se quede con un poco de margen con el cuadro blanco
     },
 
@@ -515,7 +515,7 @@ export const GlobalStyles = StyleSheet.create({
         borderRadius: 30,
         marginHorizontal: 10,
         width: 154,
-        height: 130,  
+        height: 160,  
         alignItems: 'center',
         justifyContent: 'center',
     },
@@ -524,8 +524,16 @@ export const GlobalStyles = StyleSheet.create({
         color: Colores.darkBlue,
         fontFamily: 'Poppins',
         fontWeight: 'bold',
-        fontSize: 17,
-        transform:  [{ translateY: -6 }],
+        fontSize: 14,
+        transform:  [{ translateY: 0 }, { translateX: -38 }],
+    },
+
+    textoPluto2: {
+        color: Colores.darkBlue,
+        fontFamily: 'Poppins',
+        fontWeight: 'regular',
+        fontSize: 10,
+        transform:  [{ translateY: -4 }, { translateX: -18 }],
     },
 
     textoAnimales: {
