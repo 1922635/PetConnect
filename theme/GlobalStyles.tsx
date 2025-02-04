@@ -3,9 +3,10 @@ import { Colores } from "./Colores"
 
 export const GlobalStyles = StyleSheet.create({
     login: {
-        flex: 1,
         alignItems: 'center',
         backgroundColor: Colores.darkBlue,
+        paddingVertical: 5,
+        height: 700
     },
 
     logo:
@@ -54,7 +55,8 @@ export const GlobalStyles = StyleSheet.create({
         backgroundColor: Colores.white,
         borderRadius: 35,
         marginTop: 80,
-        width: '100%'
+        width: '100%',
+        marginBottom: 90
     },
 
     contenidoRegistro: {
