@@ -21,6 +21,7 @@ const ScreenProductos = () => {
         <Text style={GlobalStyles.textoNaranja}>Categorías</Text>
         <Text style={GlobalStyles.textoNaranja}>Ver todo</Text>
 
+        <ScrollView horizontal>
         <View style={GlobalStyles.viewNaranja}>
           <Image source={require('@/assets/images/gatito.png')} style={GlobalStyles.imagenesCategorías}></Image>
           <Text style={GlobalStyles.textoAnimales}>GATOS</Text>
@@ -33,6 +34,7 @@ const ScreenProductos = () => {
           <Image source={require('@/assets/images/conejito.png')} style={GlobalStyles.imagenesCategorías}></Image>
           <Text style={GlobalStyles.textoAnimales}>CONEJOS</Text>
         </View>
+        </ScrollView>
 
 
         <View style={GlobalStyles.viewPluto}>

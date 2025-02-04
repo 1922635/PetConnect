@@ -400,8 +400,9 @@ export const GlobalStyles = StyleSheet.create({
         marginTop: 75,
         marginHorizontal: 5,
         padding: 15,
-        width: 100,
-        transform: [{ translateY: -15 }],
+        width: 112,
+        transform: [{ translateY: -50 }],
+        maxHeight: '90%'
     },
 
     imagenesCategorías: {
@@ -415,16 +416,17 @@ export const GlobalStyles = StyleSheet.create({
         flexDirection: 'row',
         marginTop: -50,
         width: '100%',
+        height: '100%',
         backgroundColor: Colores.orange,
         borderRadius: 25,
         padding: 10,
     },
 
     pluto: {
-        width: 110,
+        width: 136,
         height: 80,    
-        borderRadius: 15,
-        transform: [{ translateX: 9 }, { translateY: 8 }],
+        borderRadius: 20,
+        transform: [{ translateX: 9 }, { translateY: 4 }],
         //Necesitamos que se estire horizontalmente para que se quede con un poco de margen con el cuadro blanco
     },
 
@@ -512,7 +514,7 @@ export const GlobalStyles = StyleSheet.create({
         backgroundColor: Colores.white,
         borderRadius: 30,
         marginHorizontal: 10,
-        width: 140,
+        width: 154,
         height: 130,  
         alignItems: 'center',
         justifyContent: 'center',
@@ -522,7 +524,8 @@ export const GlobalStyles = StyleSheet.create({
         color: Colores.darkBlue,
         fontFamily: 'Poppins',
         fontWeight: 'bold',
-        fontSize: 20
+        fontSize: 17,
+        transform:  [{ translateY: -6 }],
     },
 
     textoAnimales: {
