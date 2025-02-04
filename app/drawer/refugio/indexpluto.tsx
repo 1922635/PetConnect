@@ -9,8 +9,11 @@ import { ScrollView } from 'react-native-gesture-handler';
 const ScreenProductos = () => {
   return (
     <ScrollView 
-      contentContainerStyle={GlobalStyles.registro}>
-    
+      contentContainerStyle={GlobalStyles.plutofondo}>
+
+      <View style={GlobalStyles.plutoBlanco}>
+              <Image style={GlobalStyles.plutoGrande} source={require('@/assets/images/Pluto.png')}></Image>
+        </View>
 
 
     

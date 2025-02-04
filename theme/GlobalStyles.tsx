@@ -12,7 +12,8 @@ export const GlobalStyles = StyleSheet.create({
     plutofondo:{
         backgroundColor: Colores.orange,
         paddingVertical: 5,
-        alignItems: 'center'
+        alignItems: 'center',
+        height: '100%'
     },
 
     logo:
@@ -424,8 +425,23 @@ export const GlobalStyles = StyleSheet.create({
         height: 80,    
         borderRadius: 15,
         transform: [{ translateX: 9 }, { translateY: 8 }],
-        
         //Necesitamos que se estire horizontalmente para que se quede con un poco de margen con el cuadro blanco
+    },
+
+    plutoGrande: {
+        width: 325,
+        height: 280,    
+        borderRadius: 15,
+        transform: [{ translateX: 14 }, { translateY: 15 }],
+        //Necesitamos que se estire horizontalmente para que se quede con un poco de margen con el cuadro blanco
+    },
+
+    plutoBlanco:{
+        marginTop: 20,
+        width:'90%',
+        height: '75%',
+        backgroundColor: Colores.white,
+        borderRadius: 20
     },
 
     viewBlanco: {
