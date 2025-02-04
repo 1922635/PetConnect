@@ -443,6 +443,70 @@ export const GlobalStyles = StyleSheet.create({
         backgroundColor: Colores.white,
         borderRadius: 20
     },
+    
+    plutoBlanco2:{
+        marginTop: 20,
+        width:'90%',
+        height: 100,
+        backgroundColor: Colores.white,
+        borderRadius: 20
+    },
+
+    lineasPluto:{
+        fontFamily: 'Roboto',
+        fontWeight: 'bold',
+        fontSize: 22,
+        transform:  [{ translateX: 14 }, { translateY: 17 }],
+        color: Colores.darkBlue
+    },
+
+    lineasPluto2:{
+        fontFamily: 'Roboto',
+        fontWeight: 'regular',
+        fontSize: 11,
+        transform:  [{ translateX: 14 }, { translateY: 17 }],
+        color: Colores.darkBlue
+    },
+
+    lineasPlutoHogar:{
+        fontFamily: 'Roboto',
+        fontWeight: 'bold',
+        fontSize: 25,
+        transform:  [{ translateX: 56 }, { translateY: 30 }],
+        color: Colores.darkBlue
+    },
+
+    Ana:{
+        borderRadius: 15,
+        width: 50,
+        height: 50,
+        transform:  [{ translateX: 14 }, { translateY: 30 }],
+    },
+
+    lineasAna:{
+        fontFamily: 'Roboto',
+        fontWeight: 'bold',
+        fontSize: 22,
+        transform:  [{ translateX: 70 }, { translateY: -25 }],
+        color: Colores.darkBlue
+    },
+
+    lineasAna2:{
+        fontFamily: 'Roboto',
+        fontWeight: 'regular',
+        fontSize: 11,
+        transform:  [{ translateX: 70 }, { translateY: -30 }],
+        color: Colores.darkBlue
+    },
+
+    lineasAna3:{
+        fontFamily: 'Roboto',
+        fontWeight: 'bold',
+        fontSize: 12,
+        width: 330,
+        transform:  [{ translateX: 14 }, { translateY: -10 }],
+        color: Colores.darkBlue
+    },
 
     viewBlanco: {
         backgroundColor: Colores.white,
