@@ -9,6 +9,12 @@ export const GlobalStyles = StyleSheet.create({
         height: 700
     },
 
+    plutofondo:{
+        backgroundColor: Colores.orange,
+        paddingVertical: 5,
+        alignItems: 'center'
+    },
+
     logo:
     {
         top: '2%',
@@ -414,9 +420,11 @@ export const GlobalStyles = StyleSheet.create({
     },
 
     pluto: {
-        width: 100,
+        width: 110,
         height: 80,    
-        borderRadius: 15
+        borderRadius: 15,
+        transform: [{ translateX: 9 }, { translateY: 8 }],
+        
         //Necesitamos que se estire horizontalmente para que se quede con un poco de margen con el cuadro blanco
     },
 

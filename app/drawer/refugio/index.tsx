@@ -4,6 +4,7 @@ import Registro from '@/app/registro';
 import { GlobalStyles } from '@/theme/GlobalStyles';
 import { TextInput } from 'react-native-gesture-handler';
 import { ScrollView } from 'react-native-gesture-handler';
+import { Boton2 } from '@/components/boton2';
 
 const ScreenProductos = () => {
   return (
@@ -36,7 +37,7 @@ const ScreenProductos = () => {
 
         <View style={GlobalStyles.viewPluto}>
           <View style={GlobalStyles.viewBlanco}>
-            <Image source={require('@/assets/images/Pluto.png')} style={GlobalStyles.pluto}></Image>
+            <Boton2 estilo2={GlobalStyles.botonPrincipalPulsado} link='./refugio/indexpluto' imagen={require('@/assets/images/Pluto.png')} estiloImagen={GlobalStyles.pluto}></Boton2>
             <Text style={GlobalStyles.textoPluto}>Pluto</Text>
           </View>
           <View style={GlobalStyles.viewBlanco}>
