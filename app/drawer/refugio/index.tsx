@@ -37,11 +37,11 @@ const ScreenProductos = () => {
 
         <View style={GlobalStyles.viewPluto}>
           <View style={GlobalStyles.viewBlanco}>
-            <Boton2 estilo2={GlobalStyles.botonPrincipalPulsado} link='./refugio/indexpluto' imagen={require('@/assets/images/Pluto.png')} estiloImagen={GlobalStyles.pluto}></Boton2>
+            <Boton2 link='./refugio/indexpluto' imagen={require('@/assets/images/Pluto.png')} estiloImagen={GlobalStyles.pluto}></Boton2>
             <Text style={GlobalStyles.textoPluto}>Pluto</Text>
           </View>
           <View style={GlobalStyles.viewBlanco}>
-            <Image source={require('@/assets/images/Pluto.png')} style={GlobalStyles.pluto}></Image>
+            <Boton2 link='./refugio/indexpluto' imagen={require('@/assets/images/Pluto.png')} estiloImagen={GlobalStyles.pluto}></Boton2>
             <Text style={GlobalStyles.textoPluto}>Pluto</Text>
           </View>
         </View>
