@@ -1,7 +1,10 @@
 import { View, Text, Image } from 'react-native'
 import React from 'react'
-import { DrawerContentComponentProps, DrawerContentScrollView, DrawerItemList } from '@react-navigation/drawer'
+import { DrawerContentComponentProps, DrawerContentScrollView, DrawerItem, DrawerItemList } from '@react-navigation/drawer'
 import { GlobalStyles } from '@/theme/GlobalStyles'
+import { router } from 'expo-router'
+import { Ionicons } from '@expo/vector-icons'
+import { Colores } from '@/theme/Colores'
 
 const CustomDrawer = ( props: DrawerContentComponentProps) => {
   return (
@@ -13,6 +16,12 @@ const CustomDrawer = ( props: DrawerContentComponentProps) => {
       </View>
 
       <DrawerItemList {...props}/>
+      <DrawerItem 
+        label='Log-out' 
+        onPress={() => router.push('../../')}
+        icon={({size, color}) => <Ionicons name='log-out' size={size} color={color}/>}
+        inactiveTintColor= {Colores.black}
+        />
     </DrawerContentScrollView>
   )
 }
