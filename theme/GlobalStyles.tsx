@@ -13,7 +13,7 @@ export const GlobalStyles = StyleSheet.create({
         backgroundColor: Colores.orange,
         paddingVertical: 5,
         alignItems: 'center',
-        height: '100%'
+        height: 680
     },
 
     logo:
@@ -267,7 +267,6 @@ export const GlobalStyles = StyleSheet.create({
         width: 100,
         height: 100,
         position: 'absolute',
-        transform: [{ translateX: 5 }],
     },
 
     descImagenesInicio: {
@@ -415,7 +414,6 @@ export const GlobalStyles = StyleSheet.create({
     viewPluto: {
         flexDirection: 'row',
         width: '100%',
-        height: '100%',
         backgroundColor: Colores.orange,
         borderRadius: 25,
         padding: 10,
@@ -430,7 +428,7 @@ export const GlobalStyles = StyleSheet.create({
     },
 
     plutoGrande: {
-        width: 325,
+        width: '91%',
         height: 280,    
         borderRadius: 15,
         transform: [{ translateX: 14 }, { translateY: 15 }],
@@ -440,9 +438,9 @@ export const GlobalStyles = StyleSheet.create({
     plutoBlanco:{
         marginTop: 20,
         width:'90%',
-        height: '75%',
         backgroundColor: Colores.white,
-        borderRadius: 20
+        borderRadius: 20,
+        margin: 5,
     },
     
     plutoBlanco2:{
@@ -504,9 +502,10 @@ export const GlobalStyles = StyleSheet.create({
         fontFamily: 'Roboto',
         fontWeight: 'bold',
         fontSize: 12,
-        width: 330,
+        width: '94%',
         transform:  [{ translateX: 14 }, { translateY: -10 }],
-        color: Colores.darkBlue
+        color: Colores.darkBlue,
+        textAlign: 'justify'
     },
 
     viewBlanco: {
@@ -606,4 +605,17 @@ export const GlobalStyles = StyleSheet.create({
         left: 120,
         marginTop: 40,
     },
+
+    volver: {
+        right: '34%',
+        fontWeight: 'bold',
+        fontFamily: 'Poppins',
+        color: Colores.darkBlue,
+        backgroundColor: Colores.white,
+        borderRadius: 14,
+        padding: 5,
+        marginTop: 3,
+        marginBottom: -10,
+        fontSize: 20,
+    }
 })

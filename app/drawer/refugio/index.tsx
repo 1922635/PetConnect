@@ -39,12 +39,12 @@ const ScreenProductos = () => {
 
         <View style={GlobalStyles.viewPluto}>
           <View style={GlobalStyles.viewBlanco}>
-            <Boton2 link='./refugio/indexpluto' imagen={require('@/assets/images/Pluto.png')} estiloImagen={GlobalStyles.pluto}></Boton2>
+            <Boton2 link='../perros/indexpluto' imagen={require('@/assets/images/Pluto.png')} estiloImagen={GlobalStyles.pluto}></Boton2>
             <Text style={GlobalStyles.textoPluto}>Pluto ♂</Text>
             <Text style={GlobalStyles.textoPluto2}>Macho, 1.5 años</Text>
           </View>
           <View style={GlobalStyles.viewBlanco}>
-            <Boton2 link='./refugio/indexpluto' imagen={require('@/assets/images/Pluto.png')} estiloImagen={GlobalStyles.pluto}></Boton2>
+            <Boton2 link='../perros/indexpluto' imagen={require('@/assets/images/Pluto.png')} estiloImagen={GlobalStyles.pluto}></Boton2>
             <Text style={GlobalStyles.textoPluto}>Pluto ♂</Text>
             <Text style={GlobalStyles.textoPluto2}>Macho, 1.5 años</Text>
           </View>
