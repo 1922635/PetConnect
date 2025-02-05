@@ -23,9 +23,9 @@ const ScreenProductos = () => {
               <Text style={GlobalStyles.lineasAna2}>PerrosAbandona2</Text>
 
               <Text style={GlobalStyles.lineasAna3}>Pluto entró de forma inesperada a una peluquería en la
-que justo estaba uno de nuestros voluntarios, no llevaba
-chip y nadie lo ha reclamado así que busca familia
-definitiva!</Text>
+              que justo estaba uno de nuestros voluntarios, no llevaba
+              chip y nadie lo ha reclamado así que busca familia
+              definitiva!</Text>
               </View>
         </View>
 
