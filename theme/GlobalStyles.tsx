@@ -416,14 +416,13 @@ export const GlobalStyles = StyleSheet.create({
         width: '100%',
         backgroundColor: Colores.orange,
         borderRadius: 25,
-        padding: 10,
+        padding: 10
     },
 
     pluto: {
-        width: 136,
-        height: 80,    
+        width: 130,
+        height: 100,    
         borderRadius: 20,
-        transform: [{ translateX: 9 }, { translateY: 0 }],
         //Necesitamos que se estire horizontalmente para que se quede con un poco de margen con el cuadro blanco
     },
 
@@ -512,7 +511,7 @@ export const GlobalStyles = StyleSheet.create({
         backgroundColor: Colores.white,
         borderRadius: 30,
         marginHorizontal: 10,
-        width: 154,
+        width: 142,
         height: 160,  
         alignItems: 'center',
         justifyContent: 'center',
